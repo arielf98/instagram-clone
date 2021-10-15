@@ -5,6 +5,7 @@ export default function index() {
     return (
         <div >
             <ReactLogo 
+            cursor="pointer"
             height={29} />
         </div>
     )

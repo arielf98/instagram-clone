@@ -1,4 +1,3 @@
-import React from 'react'
 import NavbarIcon from './NavbarIcon'
 import Search from './Search'
 import NavbarLogo from './NavbarLogo'
@@ -8,8 +7,8 @@ export default function Navbar() {
         <>
          <div className="border-b-2 w-screen h-14 bg-white flex items-center ">
             <NavbarLogo/>
-            <NavbarIcon/>
             <Search/>
+            <NavbarIcon/>
         </div>
         </>
     )
