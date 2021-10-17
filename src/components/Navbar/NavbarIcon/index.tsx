@@ -8,10 +8,10 @@ export default function index() {
     return (
         <div className={navbarIconStyle} >
 
-            <MdHome size={30} cursor='pointer' />
-            <MdChatBubble size={27} cursor='pointer' />
-            <MdExplore size={27} cursor='pointer' />
-            <MdFavoriteBorder size={27} cursor='pointer' />
+            <MdHome size={25} cursor='pointer' />
+            <MdChatBubble size={24} cursor='pointer' />
+            <MdExplore size={25} cursor='pointer' />
+            <MdFavoriteBorder size={25} cursor='pointer' />
             <ProfileIcon />
         </div>
     )
