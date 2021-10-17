@@ -5,7 +5,7 @@ import NavbarLogo from './NavbarLogo'
 export default function Navbar() {
     return (
         <>
-         <div className="border-b-2 w-screen h-14 bg-white flex items-center ">
+         <div className="border-b-2 w-full h-14 bg-white flex items-center ">
             <NavbarLogo/>
             <Search/>
             <NavbarIcon/>

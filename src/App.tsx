@@ -5,7 +5,7 @@ import Content from './components/content'
 function App() {
 
   return (
-    <div className="bg-gray-100 h-screen">
+    <div className="bg-gray-100 w-full h-full">
 
       <Navbar/>
       <Content />
