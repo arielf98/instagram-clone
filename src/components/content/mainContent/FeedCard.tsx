@@ -14,9 +14,9 @@ export default function FeedCard() {
         <div className={feedAccount}>
           <ImageProfile 
             imgUrl="https://source.unsplash.com/daily"
-            style={feedAccount} />
+            styles={feedAccount} />
         </div>
-        <div className="pl-2 ">
+        <div className="pl-2 hover:underline cursor-pointer  ">
             ini adalah nama akun
         </div>
         <div className="pl-64">

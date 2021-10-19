@@ -7,7 +7,7 @@ export default function profileIcon() {
     <div className={profileIconStyle}>
       <ImageProfile 
         imgUrl="https://source.unsplash.com/daily"
-        style={profileIconStyle} />
+        styles={profileIconStyle} />
     </div>
   )
 }

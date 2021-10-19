@@ -9,22 +9,21 @@ export default function SidebarContent() {
           <div className={sidebarAccount}>
             <ImageProfile 
               imgUrl = "https://source.unsplash.com/daily"
-              style={sidebarAccount}  />
+              styles={sidebarAccount}  />
           </div>
           <div className="pl-2">
               <div className="h-20 w-36">
-                <div>
+                <p className="font-sans font-semibold subpixel-antialiased hover: cursor-pointer ">
                   username
-                </div>
-                <div>
+                </p>
+                <p className="font-sans font-light subpixel-antialiased text-gray-500 capitalize">
                   nama akun
-                </div>
+                </p>
               </div>
-              
           </div>
-          <div className="pl-20">
+          <p className="pl-20 font-sans capitalize font-medium text-sm subpixel-antialiased text-blue-600 hover: cursor-pointer">
             switch
-          </div>
+          </p>
         </div>
   )
 }

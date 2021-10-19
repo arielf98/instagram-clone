@@ -1,17 +1,13 @@
 
 interface imgProfile  {
   imgUrl : string,
-  style: string,
+  styles: string,
 }
 
-export default function ImageProfile({imgUrl, style} : imgProfile) {
+export default function ImageProfile({imgUrl, styles} : imgProfile) {
   return (
-    <img  src={imgUrl} 
-                  alt="" 
-                  className={style}
-                  style={{
-                      cursor: 'pointer',
-                      objectFit: 'cover'
-                        }} />
-  )
+      <img  src={imgUrl} 
+                    alt="" 
+                    className={styles} />
+    )
 }
